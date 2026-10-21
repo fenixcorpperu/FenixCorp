@@ -166,6 +166,9 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-graphite-600 text-xs">
             © {currentYear} <span className="text-graphite-500">Fenix Corp</span>. Todos los derechos reservados.
+            <span className="ml-3 px-2 py-0.5 rounded-md bg-white/5 border border-white/10 text-graphite-600 font-mono text-[10px]">
+              v1.2.0
+            </span>
           </p>
           <div className="flex items-center gap-4 text-xs text-graphite-600">
             <a href="#" className="hover:text-graphite-400 transition-colors">Política de Privacidad</a>
