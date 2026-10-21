@@ -63,7 +63,7 @@ export default function Contacto() {
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-start">
           {/* Información de contacto */}
           <div className="lg:col-span-2">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/8 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6">
               Hablemos
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
@@ -107,7 +107,7 @@ export default function Contacto() {
 
           {/* Formulario */}
           <div className="lg:col-span-3">
-            <div className="card-dark p-8 rounded-2xl border border-white/8">
+            <div className="card-dark p-8 rounded-2xl border border-white/10">
               {status === 'success' ? (
                 <div className="text-center py-12">
                   <div className="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">

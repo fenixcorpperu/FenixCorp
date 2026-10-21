@@ -33,7 +33,7 @@ export default function Nosotros() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Contenido izquierda */}
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/8 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6">
               Quiénes Somos
             </div>
             <h2 className="section-title text-white mb-6 leading-tight">

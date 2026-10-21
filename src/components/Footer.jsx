@@ -47,7 +47,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-navy-900 border-t border-white/8 relative overflow-hidden">
+    <footer className="bg-navy-900 border-t border-white/10 relative overflow-hidden">
       <div className="absolute top-0 inset-x-0 h-px copper-line" />
 
       {/* CTA Banner superior */}
@@ -142,7 +142,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm mb-5 uppercase tracking-wider">Seguridad & Certificaciones</h4>
             <div className="space-y-3">
               {CERTIF.map(({ label, desc }) => (
-                <div key={label} className="flex items-center gap-3 p-3 rounded-xl bg-white/3 border border-white/5">
+                <div key={label} className="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/5">
                   <div className="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0">
                     <Shield className="w-3.5 h-3.5 text-amber-400" />
                   </div>

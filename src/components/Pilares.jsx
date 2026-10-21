@@ -107,14 +107,14 @@ function PilarCard({ pilar, isActive, onClick }) {
     <div
       id={pilar.id}
       onClick={onClick}
-      className={`pilar-card ${pilar.glowColor} ${pilar.borderHover} cursor-pointer`}
+      className={`pilar-card group ${pilar.glowColor} ${pilar.borderHover} cursor-pointer`}
       role="button"
       tabIndex={0}
       onKeyDown={(e) => e.key === 'Enter' && onClick()}
       aria-expanded={isActive}
     >
       {/* Fondo gradiente sutil */}
-      <div className={`absolute inset-0 bg-gradient-to-br ${pilar.color} opacity-0 group-hover:opacity-100 transition-opacity duration-400 rounded-2xl`} />
+      <div className={`absolute inset-0 bg-gradient-to-br ${pilar.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl`} />
 
       <div className="relative z-10">
         {/* Header de la card */}
@@ -189,7 +189,7 @@ export default function Pilares() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header de sección */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/8 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-5">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-5">
             Ecosistema de Soluciones
           </div>
           <h2 className="section-title text-white mb-4">
